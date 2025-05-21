@@ -1,6 +1,8 @@
 **UAV Strategic Deconfliction in Shared Airspace System**
 
+
 A modular Python toolkit for simulating, detecting, and resolving 3D airspace conflicts between multiple drones. It generates animated GIFs showing both conflict points and the delay-resolved trajectories.
+
 
 **Features:**
 Waypoint-based drone missions in 3D space
@@ -23,8 +25,10 @@ SciPy
 Matplotlib
 (Optional) ImageMagick or Pillow for GIF encoding
 
+
 Install dependencies via:
 pip install numpy scipy matplotlib pillow
+
 
 📁**Project Structure**
 .
@@ -33,6 +37,7 @@ pip install numpy scipy matplotlib pillow
 ├── simulator.py          # 3D visualization & animation
 ├── main.py               # Example entry point (uses `specs` to instantiate drones)
 └── README.md             # Project overview and usage
+
 
 🔧 Installation
 Clone this repository:
@@ -48,8 +53,10 @@ specs = [
  #other drones specify T_start, T_end and waypoint coordinate(x,y,z)
 ]
 
+
 **Run:**
 python main.py
+
 
 **Output:**
 
