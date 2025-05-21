@@ -31,7 +31,9 @@ pip install numpy scipy matplotlib pillow
 
 
 📁**Project Structure**
+
 .
+
 ├── models.py             # Waypoint & Drone data classes
 
 ├── conflict_detector.py  # Path interpolation, conflict detection, and resolution
