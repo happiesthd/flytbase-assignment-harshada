@@ -1,7 +1,8 @@
 **UAV Strategic Deconfliction in Shared Airspace System**
+
 A modular Python toolkit for simulating, detecting, and resolving 3D airspace conflicts between multiple drones. It generates animated GIFs showing both conflict points and the delay-resolved trajectories.
 
-*Features:*
+**Features:**
 Waypoint-based drone missions in 3D space
 
 Linear path interpolation over mission time windows
