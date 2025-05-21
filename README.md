@@ -1,7 +1,9 @@
 **UAV Strategic Deconfliction in Shared Airspace System**
 
 
+
 A modular Python toolkit for simulating, detecting, and resolving 3D airspace conflicts between multiple drones. It generates animated GIFs showing both conflict points and the delay-resolved trajectories.
+
 
 
 **Features:**
@@ -18,6 +20,8 @@ Automated conflict resolution via minimal delay
 Detailed terminal logs of conflict intervals and positions
 
 
+
+
 ⚙️**Requirements**
 Python 3.7+
 NumPy
@@ -26,8 +30,12 @@ Matplotlib
 (Optional) ImageMagick or Pillow for GIF encoding
 
 
+
+
 Install dependencies via:
 pip install numpy scipy matplotlib pillow
+
+
 
 
 📁**Project Structure**
@@ -45,10 +53,14 @@ pip install numpy scipy matplotlib pillow
 └── README.md             # Project overview and usage
 
 
+
+
 🔧 Installation
 Clone this repository:
 git clone https://github.com/happiesthd/flytbase-assignment-harshada.git
 cd flytbase-assignment-harshada
+
+
 
 
 ▶️**Usage**
@@ -58,6 +70,8 @@ specs = [
   ("Drone1", 0, 50, [(0,0,0),(25,25,25),(50,50,50),(75,75,75),(100,100,100)]),
  #other drones specify T_start, T_end and waypoint coordinate(x,y,z)
 ]
+
+
 
 
 **Run:**
