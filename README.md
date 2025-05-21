@@ -33,9 +33,13 @@ pip install numpy scipy matplotlib pillow
 📁**Project Structure**
 .
 ├── models.py             # Waypoint & Drone data classes
+
 ├── conflict_detector.py  # Path interpolation, conflict detection, and resolution
+
 ├── simulator.py          # 3D visualization & animation
+
 ├── main.py               # Example entry point (uses `specs` to instantiate drones)
+
 └── README.md             # Project overview and usage
 
 
